@@ -19,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/doveyyang/dovey-test-1/issues"
   },
-  "homepage": "https://github.com/doveyyang/dovey-test-1#readme"
+  "homepage": "https://github.com/doveyyang/dovey-test-1#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "parcel-bundler": "^1.12.3"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
 }
